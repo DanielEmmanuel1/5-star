@@ -6,7 +6,7 @@ import Footer from "./Footer.jsx";
 function App() {
   return (
     <div className="flex relative w-full h-screen overflow-hidden">
-      <div className="flex-[25%] h-[100vh]"
+      <div className="flex-[25%] h-[100vh] hidden lg:block"
         style={{
           background:
             "linear-gradient(to bottom, #59599B 0%, #24243E 59%, #0F0C29 100%)",

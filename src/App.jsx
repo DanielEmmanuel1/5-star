@@ -6,18 +6,17 @@ import Footer from "./Footer.jsx";
 function App() {
   return (
     <div className="flex relative w-full h-screen overflow-hidden">
-      <div
-        className="w-[25%] h-[100vh]"
+      <div className="flex-[25%] h-[100vh]"
         style={{
           background:
             "linear-gradient(to bottom, #59599B 0%, #24243E 59%, #0F0C29 100%)",
         }}
       >
-        <img className="mx-auto mt-24" src="./public/images/logo.png" alt="" />
+        <img className="mx-auto mt-24" src="./Images/logo.png" alt="hello" />
 
         <div className="absolute w-[25%] bottom-24">
           <div className="bg-hand-shake bg-no-repeat bg-center w-full h-96"></div>
-          <div className=" w-[380px] mx-auto mt-8 mb-8">
+          <div className="mt-8 mb-8 px-[16px]">
             <h1 className="h-[88px] text-[40px] leading-[47px] text-white text-center">
               Partnership for Business Growth
             </h1>
@@ -29,7 +28,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="h-[95vh] relative w-[75%]">
+      <div className="h-[95vh] relative flex-[75%]">
         <Navbar />
         <HeroSection />
         <div className="absolute bottom-0 w-full">

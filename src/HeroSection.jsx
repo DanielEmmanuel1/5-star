@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        <div className="my-4 w-full">
+        <div className="relative my-4 w-full">
           <div className="relative">
             <img
               src="./images/lock.svg"
@@ -49,11 +49,17 @@ const HeroSection = () => {
               type="password"
               placeholder="*********"
             />
+
+            <span className="text-[#9E9E9E] text-[10px] absolute top-[40%] right-5">
+              SHOW
+            </span>
           </div>
         </div>
-        <button className="bg-[#24243E] text-white font-light w-full h-[72px] mt-4">
-          Become A Member
-        </button>
+        {/* <div className=> */}
+          <div className="bg-[#24243E] text-white font-light w-full h-[72px] mt-4">
+            <button className="flex justify-between items-center w-full h-full px-6 font-normal"><span>Become A Member</span><img className="" src="./images/arrow-right.svg" alt="" srcset="" /></button>
+          {/* </div> */}
+        </div>
       </div>
     </div>
   );

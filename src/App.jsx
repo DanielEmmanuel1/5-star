@@ -14,8 +14,8 @@ function App() {
       >
         <img className="mx-auto mt-24" src="./images/logo.png" alt="hello" />
 
-        <div className="absolute w-[25%] bottom-24">
-          <div className="bg-hand-shake bg-no-repeat bg-center w-full h-96 max-w-screen-md max-h-screen-m"></div>
+        <div className="absolute w-[25%] bottom-24 md:bottom-10">
+          <div className="bg-hand-shake bg-no-repeat bg-center w-full h-96 max-w-screen-md md:h-[350px]"></div>
           <div className="mt-8 mb-8 px-[16px]">
             <h1 className="h-[88px] text-[40px] leading-[47px] text-white text-center md:text-[1.5rem]">
               Partnership for Business Growth

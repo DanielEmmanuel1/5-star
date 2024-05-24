@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="my-4 w-full">
           <div className="relative">
             <img
-              src="./Images/icon-user.svg"
+              src="./images/icon-user.svg"
               alt="User Icon"
               className="absolute left-3 top-1/2 transform -translate-y-1/2 w-6 h-6"
             />
@@ -26,7 +26,7 @@ const HeroSection = () => {
         <div className="my-4 w-full">
           <div className="relative">
             <img
-              src="./Images/icon-mail.svg"
+              src="./images/icon-mail.svg"
               alt="Email Icon"
               className="absolute left-3 top-1/2 transform -translate-y-1/2 w-6 h-6"
             />
@@ -40,7 +40,7 @@ const HeroSection = () => {
         <div className="my-4 w-full">
           <div className="relative">
             <img
-              src="./Images/lock.svg"
+              src="./images/lock.svg"
               alt="Password Icon"
               className="absolute left-3 top-1/2 transform -translate-y-1/2 w-6 h-6"
             />

@@ -3,7 +3,7 @@ const Navbar = () => {
     <>
       <nav className="flex justify-between mx-6 my-8">
         <div className="flex gap-2">
-          <img src="./Images/leftarrow.svg" alt="" />
+          <img src="./images/leftarrow.svg" alt="" />
           <p className="text-[#424242]">Return Home</p>
         </div>
 

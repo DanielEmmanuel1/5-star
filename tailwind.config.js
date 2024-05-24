@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hand-shake": "url('./Images/handshake.png')",
+        "hand-shake": "url('./images/handshake.png')",
       },
     },
   },

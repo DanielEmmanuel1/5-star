@@ -12,7 +12,7 @@ function App() {
             "linear-gradient(to bottom, #59599B 0%, #24243E 59%, #0F0C29 100%)",
         }}
       >
-        <img className="mx-auto mt-24" src="./Images/logo.png" alt="hello" />
+        <img className="mx-auto mt-24" src="./images/logo.png" alt="hello" />
 
         <div className="absolute w-[25%] bottom-24">
           <div className="bg-hand-shake bg-no-repeat bg-center w-full h-96"></div>
